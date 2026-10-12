@@ -13,7 +13,7 @@ pub struct App {
 
 /// Built-in launch catalog. Apps marked as planned in the README have menu
 /// entries and UI models; hardware/network-dependent implementations follow.
-pub const APPS: [App; 28] = [
+pub static APPS: [App; 28] = [
     App {
         name: "Piano",
         icon: '♫',
@@ -187,5 +187,11 @@ impl UiState {
         } else {
             (self.selection + 1) % len
         };
+    }
+}
+
+impl Default for UiState {
+    fn default() -> Self {
+        Self::new()
     }
 }

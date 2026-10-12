@@ -1,1 +1,2 @@
-stack-size-threshold = 1024
+# The UI is a 128x64 draw target and includes bounded Wi-Fi state on the task.
+stack-size-threshold = 4096
