@@ -7,7 +7,7 @@
 [![SSD1306](https://img.shields.io/badge/SSD1306-OLED-167D9A?style=for-the-badge)](https://github.com/eldruin/ssd1306)
 [![GitHub](https://img.shields.io/badge/GitHub-source-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
 
-**Aetheris — Powered by Seleste Technologies** is a Rust phone-style firmware
+**Aetheris** is a Rust phone-style firmware
 for the ESP32-C6. It uses the Espressif ROM and bootloader underneath; it is an
 embedded device environment, not a PC-class operating system.
 
